@@ -2,6 +2,8 @@
 
 A specialized **Knowledge Graph Retrieval-Augmented Generation (GraphRAG)** pipeline designed to perform multi-hop reasoning across corporate history, intellectual property (IP), and R&D data.
 
+![Graph Visualization](./images/graph_viz.png)
+
 ## 🧠 Why GraphRAG?
 Standard Vector-based RAG often fails at complex, relational questions. For example, if asked *"How does a founder's 2010 research influence a 2026 patent?"*, a standard RAG might find the paper or the patent, but it struggles to bridge the connection.
 
@@ -35,5 +37,3 @@ NEO4J_URI=bolt://your-instance-url:7687
 NEO4J_USERNAME=neo4j
 NEO4J_PASSWORD=your-password
 GROQ_API_KEY=gsk_your_key_here
-
-![Graph Visualization](./images/graph_viz.png)
