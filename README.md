@@ -2,7 +2,7 @@
 
 A specialized **Knowledge Graph Retrieval-Augmented Generation (GraphRAG)** pipeline designed to perform multi-hop reasoning across corporate history, intellectual property (IP), and R&D data.
 
-![Graph Visualization](./images/graph_viz.png)
+![Graph Visualization of Neo4j AURA](./images/graph_viz.png)
 
 ## 🧠 Why GraphRAG?
 Standard Vector-based RAG often fails at complex, relational questions. For example, if asked *"How does a founder's 2010 research influence a 2026 patent?"*, a standard RAG might find the paper or the patent, but it struggles to bridge the connection.
